@@ -20,5 +20,5 @@ function sum_v3(from: number, to: number, result: number): number {
   result += from;
   console.log("I: " + from + ", sum: " + result);
 
-  return sum(from + 1, to, result);
+  return sum_v3(from + 1, to, result);
 }
